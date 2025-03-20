@@ -8,6 +8,8 @@ public class cin_zondagi {
         System.out.println("Doğum yılını giriniz: ");
         int dogumYili = scanner.nextInt();
 
+
+
         if(dogumYili % 12==0){
             System.out.println("Çin zodyağı burcunuz: Maymun ");
         }
