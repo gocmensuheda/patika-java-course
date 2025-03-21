@@ -14,5 +14,7 @@ public class islem_onceligi {
 
         int islem = a+(b*c)-b;
         System.out.println("işlem sonucu: " + islem);
+
+
     }
 }
