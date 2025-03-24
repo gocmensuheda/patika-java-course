@@ -2,7 +2,7 @@ package hafta1;
 
 import java.util.Scanner;
 
-public class tip_dönüşümleri {
+public class tip_donusumleri {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Tam sayı giriniz: ");
