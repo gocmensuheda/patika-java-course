@@ -8,6 +8,15 @@ public class matris_transpoz {
                 {7,8,9}
 
         };
+        for (int i = 0; i < matris.length; i++) {
+            for (int j = 0; j < matris[i].length; j++) {
+                System.out.print(matris[i][j] + " ");
+                //burda transpoz işlemi yapılıyor. satırlar ve sütunlar yer değiştiriyor.
+
+            }
+            System.out.println();
+        }
+
         int[][] transpoz = new int[matris[0].length][matris.length];
         //burda transpoz matrisini oluşturdum.
         //matris[0].length bu ifade matrisin ilk satırındaki eleman sayısını ifade ediyor.
@@ -22,6 +31,7 @@ public class matris_transpoz {
 
             }
         }
+        System.out.println("matris transpozu aşağıdadır.");
         for (int i = 0; i < transpoz.length; i++) {
             for (int j = 0; j < transpoz[i].length; j++) {
                 System.out.print(transpoz[i][j] + " ");
