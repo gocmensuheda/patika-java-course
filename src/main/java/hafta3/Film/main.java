@@ -32,7 +32,7 @@ public class main {
         String hedefTur = "Bilim Kurgu";
         List<Film> filtrelenmisFilmler = filmFiltrele(filmler, hedefTur);
 
-        // ✅ Filtrelenmiş filmleri ekrana yazdır
+        //  Filtrelenmiş filmleri ekrana yazdır
         System.out.println("\n " + hedefTur + " Türüne Göre Filtrelenmiş Filmler:");
         for (Film film : filtrelenmisFilmler) {
             System.out.println(film);
