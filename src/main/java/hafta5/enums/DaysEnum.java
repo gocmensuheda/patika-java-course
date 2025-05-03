@@ -1,5 +1,7 @@
 package hafta5.enums;
 
+import java.util.Scanner;
+
 public enum DaysEnum {
 
     SUNDAY("non"),
@@ -28,7 +30,39 @@ public enum DaysEnum {
 
     public static void main(String[] args) {
         for (DaysEnum days: DaysEnum.values()){
-            System.out.println(days.name()+" " + days.getHour());
+            System.out.println(days.ordinal()+ " " + days.name());
+        }
+
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Lütfen saaitini öğrenmek istediğiniz günün numarasını giriniz.");
+        int Day = scanner.nextInt();
+
+        switch (Day){
+            case 0:
+                System.out.println(DaysEnum.SUNDAY.getHour());
+                break;
+            case 1:
+                System.out.println(DaysEnum.MONDAY.getHour());
+                break;
+            case 2:
+                System.out.println(DaysEnum.TUESDAY.getHour());
+                break;
+            case 3:
+                System.out.println(DaysEnum.WEDNESDAY.getHour());
+                break;
+            case 4:
+                System.out.println(DaysEnum.THURSDAY.getHour());
+                break;
+            case 5:
+                System.out.println(DaysEnum.FRIDAY.getHour());
+                break;
+            case 6:
+                System.out.println(DaysEnum.SATURDAY.getHour());
+                break;
+            default:
+                System.out.println("lütfen geçerli bir seçim yapınız.");
+
         }
 
     }
