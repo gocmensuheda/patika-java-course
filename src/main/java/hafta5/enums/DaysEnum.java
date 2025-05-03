@@ -8,7 +8,7 @@ public enum DaysEnum {
 
     TUESDAY("9:00 - 17:00"),
 
-    WEDNESDAY("9:00 - 17:00"),
+    WEDNESDAY("9:00 - 10:00"),
 
     THURSDAY("9:00 - 17:00"),
 
