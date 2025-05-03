@@ -3,6 +3,7 @@ package hafta5.enums.record;
 public record Student(String name, String surname, int number) {
 
     public static void main(String[] args) {
+
         Student student1=new Student("Ayşe", "Demir",765);
         System.out.println("Adı: " + student1.name + " soyadı: " + student1.surname + " numarası: " + student1.number);
         Student student2=new Student("Fatma", "Kaya",954);
