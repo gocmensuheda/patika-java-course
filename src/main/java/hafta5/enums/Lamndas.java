@@ -11,4 +11,4 @@ public class Lamndas {
         numbers.stream()
                 .map(n -> n * 2)
                 .forEach(System.out::println);
-}
+}}
