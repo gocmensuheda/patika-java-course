@@ -7,7 +7,7 @@ public class DoWhile {
         Scanner scanner = new Scanner(System.in);
         String password ="1234";
         int count=0;
-        System.out.println("Please enter your password:");
+        System.out.println("Please enter your password");
         String input = scanner.nextLine();
         do {
             if(input.equals(password)) {
